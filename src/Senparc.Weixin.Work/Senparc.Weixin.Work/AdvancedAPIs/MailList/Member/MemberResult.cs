@@ -99,6 +99,10 @@ namespace Senparc.Weixin.Work.AdvancedAPIs.MailList
         /// 关注微信插件的状态: 1=已关注，0=未关注
         /// </summary>
         public string wxplugin_status { get; set; }
+        /// <summary>
+        /// 主部门
+        /// </summary>
+        public long main_department { get; set; }
     }
 
     public class GetDepartmentMemberResult : WorkJsonResult
